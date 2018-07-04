@@ -18,7 +18,7 @@ public class Main {
   * @throws FileNotFoundException  It may throw FileNotFoundException
   */
   public static void main(String[] args) throws IOException, FileNotFoundException {
-    String studentDetailsFile = "C:\\Users\\APSSDC\\Documents\\Student_Details.csv";
+    String studentDetailsFile = "src/main/java/com/studentoperations/epam/Student_Details.csv";
     Scanner fileScanner = new Scanner(new File(studentDetailsFile));
     Scanner consoleScanner = new Scanner(System.in);
     ArrayList<Student> studentList = new ArrayList<Student>();
