@@ -39,7 +39,7 @@ public class StudentSearch {
         dataFound = Integer.toString(s.getYearOfStudy());
       } else if (filterBy == 7) {
         dataFound = Integer.toString(s.getId());
-      } else if (filterBy == 8) {
+      } else {
         dataFound = s.getCollegeName();
       }
       
